@@ -1,3 +1,4 @@
+
 @extends('layout.master')
 
 @section('title')
@@ -31,7 +32,7 @@
                 <!-- logo  -->
                 <div class="aa-logo">
                   <!-- Text based logo -->
-                  <a href="{{ url('')}}">
+                  <a href="">
                     <span class="fa fa-shopping-cart"></span>
                     <p>Laravel<strong>Shop</strong> <span>Your Shopping Partner</span></p>
                   </a>
@@ -252,7 +253,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-1.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-1.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -270,7 +271,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-2.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-2.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -288,7 +289,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-3.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-3.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -304,7 +305,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-4.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-4.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -322,7 +323,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-5.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-5.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -339,7 +340,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-6.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-6.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -355,7 +356,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-7.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-7.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -373,7 +374,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/women/girl-1.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/women/girl-1.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -398,7 +399,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-1.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-1.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -416,7 +417,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-2.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-2.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -434,7 +435,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-3.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-3.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -450,7 +451,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-4.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-4.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -468,7 +469,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-5.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-5.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -484,7 +485,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-6.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-6.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -500,7 +501,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-7.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-7.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -518,7 +519,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/sports/sport-8.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/sports/sport-8.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -542,7 +543,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-1.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-1.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -560,7 +561,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-2.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-2.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -578,7 +579,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-3.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-3.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -594,7 +595,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-4.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-4.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -612,7 +613,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-5.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-5.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -628,7 +629,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-6.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-6.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -644,7 +645,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-7.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-7.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -662,7 +663,7 @@
                         <!-- start single product item -->
                         <li>
                           <figure>
-                            <a class="aa-product-img" href="#"><img src="{{ URL::asset( 'frontend/img/electronics/electronic-8.png')}}" alt="polo shirt img"></a>
+                            <a class="aa-product-img" href="#"><img src="frontend/img/electronics/electronic-8.png" alt="polo shirt img"></a>
                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                             <figcaption>
                               <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -695,27 +696,27 @@
                                 <div class="simpleLens-gallery-container" id="demo-1">
                                   <div class="simpleLens-container">
                                     <div class="simpleLens-big-image-container">
-                                      <a class="simpleLens-lens-image" data-lens-image="{{ URL::asset( 'frontend/img/view-slider/large/polo-shirt-1.png')}}">
+                                      <a class="simpleLens-lens-image" data-lens-image="frontend/img/view-slider/large/polo-shirt-1.png">
                                         <img src="img/view-slider/medium/polo-shirt-1.png" class="simpleLens-big-image">
                                       </a>
                                     </div>
                                   </div>
                                   <div class="simpleLens-thumbnails-container">
                                     <a href="#" class="simpleLens-thumbnail-wrapper"
-                                    data-lens-image="{{ URL::asset('frontend/img/view-slider/large/polo-shirt-1.png')}}"
-                                    data-big-image="{{ URL::asset('frontend/img/view-slider/medium/polo-shirt-1.png')}}">
-                                    <img src="{{ URL::asset('frontend/img/view-slider/thumbnail/polo-shirt-1.png')}}">
+                                    data-lens-image="frontend/img/view-slider/large/polo-shirt-1.png"
+                                    data-big-image="frontend/img/view-slider/medium/polo-shirt-1.png">
+                                    <img src="frontend/img/view-slider/thumbnail/polo-shirt-1.png">
                                   </a>                                    
                                   <a href="#" class="simpleLens-thumbnail-wrapper"
-                                  data-lens-image="{{ URL::asset('frontend/img/view-slider/large/polo-shirt-3.png')}}"
-                                  data-big-image="{{ URL::asset('frontend/img/view-slider/medium/polo-shirt-3.png')}}">
-                                  <img src="{{ URL::asset('frontend/img/view-slider/thumbnail/polo-shirt-3.png')}}">
+                                  data-lens-image="frontend/img/view-slider/large/polo-shirt-3.png"
+                                  data-big-image="frontend/img/view-slider/medium/polo-shi">
+                                  <img src="frontend/img/view-slider/thumbnail/polo-shi">
                                 </a>
                                 
                                 <a href="#" class="simpleLens-thumbnail-wrapper"
-                                data-lens-image="{{ URL::asset('frontend/img/view-slider/large/polo-shirt-4.png')}}"
-                                data-big-image="{{ URL::asset('frontend/img/view-slider/medium/polo-shirt-4.png')}}">
-                                <img src="{{ URL::asset('frontend/img/view-slider/thumbnail/polo-shirt-4.png')}}">
+                                data-lens-image="frontend/img/view-slider/large/polo-shi"
+                                data-big-image="frontend/img/view-slider/medium/polo-shi">
+                                <img src="frontend/img/view-slider/thumbnail/polo-shi">
                               </a>
                             </div>
                           </div>
@@ -779,7 +780,7 @@
           <div class="col-md-12">        
             <div class="row">
               <div class="aa-banner-area">
-                <a href="#"><img src="{{ URL::asset('frontend/img/fashion-banner.jpg')}}" alt="fashion banner img"></a>
+                <a href="#"><img src="frontend/img/fashion-ba" alt="fashion banner img"></a>
               </div>
             </div>
           </div>

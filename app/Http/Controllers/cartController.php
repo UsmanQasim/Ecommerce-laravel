@@ -13,7 +13,7 @@ class cartController extends Controller
     public function getIndex(){
      
         $product = product::all();
-        return view('frontend.index', ['products' => $product]);
+        return view('index', ['products' => $product]);
     
     }
 }

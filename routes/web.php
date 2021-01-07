@@ -1,5 +1,6 @@
 <?php
 
+
 use App\Http\Controllers\cartController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,16 +17,17 @@ use Illuminate\Support\Facades\Route;
 
 
 // THIS FU**ING FUNCTION Works
-Route::get('/', [cartController::class , 'getIndex']);
+//Route::get('/',[App\Http\Controllers\cartController::class , 'getIndex']);
+Route::get('/',  [cartController::class , 'getIndex']);
 
 Route::get('/get-item-cart/{id}', [cartController::class, 'addToCArt']);
 
 Route::get('/cart' , function(){
-    return view('frontend.cart');
+    return view('cart');
 });
 
 
 Route::get('/checkout' , function(){
-    return view('frontend.checkout');
+    return view('checkout');
 });
 
